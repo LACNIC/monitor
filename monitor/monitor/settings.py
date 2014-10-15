@@ -23,6 +23,10 @@ SECRET_KEY = 'l_1(qzd#nkgn6uyd(f)$^f@k=^tqsdexysz$@$p053xv3!m95!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ADMINS = (
+    ('Agustin Formoso', 'aguformoso@gmail.com')
+)
+
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
