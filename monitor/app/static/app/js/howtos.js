@@ -2,6 +2,7 @@
 // and print the results into the browser itself.
 BOOMR.subscribe('before_beacon', function(o) {
 	var html = "", t_name, t_other, others = [];
+    var json = {};
 
 	if(!o.t_other) o.t_other = "";
 
@@ -16,7 +17,10 @@ BOOMR.subscribe('before_beacon', function(o) {
 		}
 	}
 
-	if(o.t_done) { html += "This page took " + o.t_done + " ms to load<br>"; }
+    if (o.t_done) {
+        html += "This page took " + o.t_done + " ms to load<br>";
+        json.t_done = o.t_done;
+    }
 	if(o.t_other) {
 		t_other = o.t_other.replace(/^,/, '').replace(/\|/g, ' = ').split(',');
 		html += "Other timers measured: <br>";
@@ -24,11 +28,28 @@ BOOMR.subscribe('before_beacon', function(o) {
 			html += "&nbsp;&nbsp;&nbsp;" + t_other[i] + " ms<br>";
 		}
 	}
-	if(o.bw) { html += "Your bandwidth to this server is " + parseInt(o.bw*8/1024) + "kbps (&#x00b1;" + parseInt(o.bw_err*100/o.bw) + "%)<br>"; }
-	if(o.lat) { html += "Your latency to this server is " + parseInt(o.lat) + "&#x00b1;" + o.lat_err + "ms<br>"; }
+    if (o.bw) {
+        html += "Your bandwidth to this server is " + parseInt(o.bw * 8 / 1024) + "kbps (&#x00b1;" + parseInt(o.bw_err * 100 / o.bw) + "%)<br>";
+        json.bw = o.bw;
+        json.bw_err = o.bw_err;
+    }
+    if (o.lat) {
+        html += "Your latency to this server is " + parseInt(o.lat) + "&#x00b1;" + o.lat_err + "ms<br>";
+        json.lat = o.lat;
+        json.lat_err = o.lat_err;
+    }
 
 	var r = document.getElementById('results');
-	r.innerHTML = html;
+//	r.innerHTML = html;
+    r.innerHTML += JSON.stringify(json);
+
+    jQuery.ajax(
+        {
+            url: "post/",
+            type: "POST",
+            data: json
+        }
+    )
 
 	if(others.length) {
 		r.innerHTML += "Other parameters:<br>";
@@ -41,6 +62,5 @@ BOOMR.subscribe('before_beacon', function(o) {
 
 		}
 	}
-
 });
 

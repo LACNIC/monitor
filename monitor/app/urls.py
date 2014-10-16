@@ -6,6 +6,6 @@ from monitor import settings
 
 
 urlpatterns = patterns('',
-                       # url(r'^$', views.home, name='home'),
-                       url(r'post/', views.home, name='home'),
+                       url(r'^$', views.home, name='home'),
+                       url(r'^post/', views.post, name='post'),
 ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
