@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+<div id="container" style="min-width: 310px; height: 400px;"></div>
+<div id="histogram_lat" style="min-width: 310px; height: 400px; margin-top: 200px"></div>
+<div id="histogram_bw" style="min-width: 310px; height: 400px; margin-top: 200px"></div>
+
+
+<script>
+function print_bw(value) {
+    K = 1000;
+    M = 1000 * K;
+
+    if (value < K)
+        return value
+    else if (value < M)
+        return value / K + ' Kbps';
+    else
+        return  value / M + ' Mbps';
+}
+
+$(function () {
+            $('#container').highcharts({
+                chart: {
+                    type: 'area'
+                },
+                title: {
+                    text: 'User bandwidth vs. time'
+                },
+                subtitle: {
+                    text: 'Subtítulo'
+                },
+                xAxis: {
+                    allowDecimals: false,
+                    labels: {
+                        formatter: function () {
+                            return this.value; // clean, unformatted number for year
+                        }
+                    }
+                },
+                yAxis: [
+                    {
+                        title: {
+                            text: 'Bandwidth'
+                        },
+                        labels: {
+                            formatter: function () {
+                                return print_bw(this.value)
+                            }
+                        }
+                    },
+                    {
+                        title: {
+                            text: 'Latency'
+                        },
+                        min: 0,
+                        max: 500,
+                        labels: {
+                            formatter: function () {
+                                return this.value + ' ms'
+                            }
+                        }
+                    }
+                ],
+                tooltip: {
+                    pointFormat: '{series.name} <b>{point.y:,.0f}</b><br/>'
+                },
+                plotOptions: {
+                    area: {
+                        marker: {
+                            enabled: false,
+                            symbol: 'circle',
+                            radius: 2,
+                            states: {
+                                hover: {
+                                    enabled: true
+                                }
+                            }
+                        }
+                    }
+                },
+                series: [
+                    {
+                        name: 'Bandwidth',
+                        yAxis: 0,
+                        data: {{ bw }}
+        },
+        {
+            name: 'Latency',
+            yAxis: 1,
+            data: {
+{
+    lat
+}
+}
+}
+]
+})
+;
+
+/*
+ HISTOGRAMS
+ */
+$('#histogram_lat').highcharts({
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'User latency histogram'
+            },
+            subtitle: {
+                text: 'Subtítulo'
+            },
+            xAxis: [
+                {
+                    allowDecimals: true,
+                    categories: {{ bins_lat }},
+        labels
+:
+{
+    formatter: function () {
+        return Math.round(this.value) + ' ms'; // clean, unformatted number for year
+    }
+}
+}],
+yAxis: [
+    {
+        title: {
+            text: 'Latency'
+        },
+        labels: {
+            formatter: function () {
+                return 100 * this.value
+            }
+        }
+    }
+],
+        tooltip
+:
+{
+    pointFormat: 'Percentage: <b>{point.y:,.3f}%</b><br/>'
+}
+,
+plotOptions: {
+    area: {
+        marker: {
+            enabled: false,
+                    symbol
+        :
+            'circle',
+                    radius
+        :
+            2,
+                    states
+        :
+            {
+                hover: {
+                    enabled: true
+                }
+            }
+        }
+    }
+}
+,
+series: [
+    {
+        name: 'Latency',
+        yAxis: 0,
+        data: {{ hist_lat }
+}
+}
+]
+})
+;
+
+/*
+ BANDWIDTH HISTOGRAM
+ */
+$('#histogram_bw').highcharts({
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: 'User latency histogram'
+            },
+            subtitle: {
+                text: 'Subtítulo'
+            },
+            xAxis: [
+                {
+                    allowDecimals: true,
+                    categories: {{ bins_bw }},
+        labels
+:
+{
+    formatter: function () {
+        return print_bw(Math.round(this.value)); // clean, unformatted number for year
+    }
+}
+}],
+yAxis: [
+    {
+        title: {
+            text: 'Bandwidth'
+        },
+        labels: {
+            formatter: function () {
+                return 100 * this.value
+            }
+        }
+    }
+],
+        tooltip
+:
+{
+    pointFormat: 'Percentage: <b>{point.y:,.3f}%</b><br/>'
+}
+,
+plotOptions: {
+    area: {
+        marker: {
+            enabled: false,
+                    symbol
+        :
+            'circle',
+                    radius
+        :
+            2,
+                    states
+        :
+            {
+                hover: {
+                    enabled: true
+                }
+            }
+        }
+    }
+}
+,
+series: [
+    {
+        name: 'Bandwidth',
+        yAxis: 0,
+        data: {{ hist_bw }
+}
+}
+]
+})
+;
+})
+;
+</script>
+
+</body>
+</html>

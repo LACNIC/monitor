@@ -40,7 +40,7 @@ BOOMR.subscribe('before_beacon', function(o) {
     }
 
 	var r = document.getElementById('results');
-//	r.innerHTML = html;
+    r.innerHTML = html;
     r.innerHTML += JSON.stringify(json);
 
     jQuery.ajax(
@@ -51,16 +51,16 @@ BOOMR.subscribe('before_beacon', function(o) {
         }
     )
 
-	if(others.length) {
-		r.innerHTML += "Other parameters:<br>";
-
-		for(var i=0; i<others.length; i++) {
-			var t = document.createTextNode(others[i]);
-			r.innerHTML += "&nbsp;&nbsp;&nbsp;";
-			r.appendChild(t);
-			r.innerHTML += "<br>";
-
-		}
-	}
+//	if(others.length) {
+//		r.innerHTML += "Other parameters:<br>";
+//
+//		for(var i=0; i<others.length; i++) {
+//			var t = document.createTextNode(others[i]);
+//			r.innerHTML += "&nbsp;&nbsp;&nbsp;";
+//			r.appendChild(t);
+//			r.innerHTML += "<br>";
+//
+//		}
+//	}
 });
 

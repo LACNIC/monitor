@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<script src="/static/app/js/Chart.js"></script>
+
+<div>
+    <div>
+        <canvas id="latCanvas"></canvas>
+        <canvas id="bwCanvas"></canvas>
+    </div>
+</div>
+
+<script>
+
+    Chart.defaults.global.animation = false;
+
+    var latChart = {
+        labels: [{ % for d in data %}
+    "{{ d.print_date}}", { % endfor %
+    }],
+    datasets : [
+        {
+            label: "My First dataset",
+            fillColor: "rgba(220,220,220,0.2)",
+            strokeColor: "rgba(220,220,220,1)",
+            pointColor: "rgba(220,220,220,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: {{ lat }
+    }
+    }
+    ]
+    }
+
+    var bwChart = {
+        labels: [{ % for d in data %}
+    "{{ d.print_date}}", { % endfor %
+    }],
+    datasets : [
+        {
+            label: "My Second dataset",
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            data: {{ bw }
+    }
+    }
+    ]
+    }
+
+    window.onload = function () {
+        var ctx = document.getElementById("latCanvas").getContext("2d");
+        window.myLine = new Chart(ctx).Line(latChart, {
+            responsive: true,
+            scaleShowGridLines: false,
+            scaleShowLabaels: false,
+            showTooltips: true,
+            showScale: true
+        });
+
+        var ctx = document.getElementById("bwCanvas").getContext("2d");
+        window.myLine = new Chart(ctx).Line(bwChart, {
+            responsive: true,
+            scaleShowGridLines: false,
+            scaleShowLabaels: false,
+            showTooltips: true,
+            showScale: true
+        });
+    }
+
+
+</script>
+
+</body>
+</html>
