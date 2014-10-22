@@ -2,7 +2,7 @@ import datetime
 import urllib2
 
 from django.db import models
-from django.db.models.fields import FloatField, DateTimeField, TextField
+from django.db.models.fields import FloatField, DateTimeField, TextField, IPAddressField
 from django.db.models.fields.related import ForeignKey
 
 
@@ -23,6 +23,8 @@ class Medicion(models.Model):
     bw_err = FloatField(default=0)
     url = TextField(default='')  # por si no hay paginas para esa URL
     page = ForeignKey(Page, null=True)
+    ip_origin = IPAddressField(default='127.0.0.1')
+    ip_destination = IPAddressField(default='127.0.0.1')
 
     def __str__(self):
         return "%s %s %s" % (self.print_lat(), self.print_bw(), self.print_date())
