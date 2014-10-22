@@ -1,3 +1,5 @@
+import math
+
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
@@ -29,18 +31,10 @@ def post(request):
 
 
 def stats(request):
-    lat = Medicion.objects.filter(lat__lte=900, bw__lte=20000000)[:100]
-    return render(request, 'app/stats.html', {'data': lat,
-                                              'lat': list(lat.values_list('lat', flat=True)),
-                                              'bw': list(lat.values_list('bw', flat=True))
-    })
-
-
-def stats2(request):
     lat = Medicion.objects.filter(lat__lte=900, bw__lte=20000000)[:1000]
     # latency
     lat_flat = list(lat.values_list('lat', flat=True))
-    hist_lat, bin_edges = np.histogram(lat_flat, bins=10, normed=True)
+    hist_lat, bin_edges = np.histogram(lat_flat, bins=30, normed=True)
     hist_lat = hist_lat.tolist()
     bin_edges = bin_edges.tolist()
     # preparar los bins para poder imprimirlos
@@ -54,7 +48,7 @@ def stats2(request):
 
     # bandwidth
     bw_flat = list(lat.values_list('bw', flat=True))
-    hist_bw, bin_edges = np.histogram(bw_flat, bins=10, normed=True)
+    hist_bw, bin_edges = np.histogram(bw_flat, bins=int(math.sqrt(len(bw_flat))), normed=True)
     hist_bw = hist_bw.tolist()
     bin_edges = bin_edges.tolist()
     # preparar los bins para poder imprimirlos
