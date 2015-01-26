@@ -10,6 +10,10 @@
 <script src="http://code.highcharts.com/highcharts.js"></script>
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
+{% for p in pages %}
+    {{ p.url }}
+{% endfor %}
+
 <div id="container" style="min-width: 310px; height: 400px;"></div>
 <div id="histogram_lat" style="min-width: 310px; height: 400px; margin-top: 200px"></div>
 <div id="histogram_bw" style="min-width: 310px; height: 400px; margin-top: 200px"></div>
@@ -97,11 +101,7 @@ $(function () {
         {
             name: 'Latency',
             yAxis: 1,
-            data: {
-{
-    lat
-}
-}
+            data: {{ lat }}
 }]
 })
 ;
@@ -119,67 +119,59 @@ $('#histogram_lat').highcharts({
             subtitle: {
                 text: 'Subtítulo'
             },
-            xAxis: [
-                {
-                    allowDecimals: true,
-                    categories: {{ bins_lat }},
-        labels
-:
-{
-    formatter: function () {
-        return Math.round(this.value) + ' ms'; // clean, unformatted number for year
-    }
-}
-}],
-yAxis: [
-    {
-        title: {
-            text: 'Latency'
-        },
-        labels: {
-            formatter: function () {
-                return 100 * this.value
-            }
-        }
-    }
-],
-        tooltip
-:
-{
-    pointFormat: 'Percentage: <b>{point.y:,.3f}%</b><br/>'
-}
-,
-plotOptions: {
-    area: {
-        marker: {
-            enabled: false,
-                    symbol
-        :
-            'circle',
-                    radius
-        :
-            2,
-                    states
-        :
-            {
-                hover: {
-                    enabled: true
+            xAxis: [{
+                allowDecimals: true,
+                categories: {{ bins_lat }},
+                labels : {
+                    formatter: function () {
+                        return Math.round(this.value) + ' ms'; // clean, unformatted number for year
+                    }
                 }
-            }
-        }
-    }
-}
-,
-series: [
-    {
-        name: 'Latency',
-        yAxis: 0,
-        data: {{ hist_lat }
-}
-}
-]
-})
-;
+            }],
+            yAxis: [
+                {
+                    title: {
+                        text: 'Latency'
+                    },
+                    labels: {
+                        formatter: function () {
+                            return 100 * this.value
+                        }
+                    }
+                }
+            ],
+            tooltip : {
+                pointFormat: 'Percentage: <b>{point.y:,.3f}%</b><br/>'
+            },
+            plotOptions: {
+                area: {
+                    marker: {
+                        enabled: false,
+                                symbol
+                    :
+                        'circle',
+                                radius
+                    :
+                        2,
+                                states
+                    :
+                        {
+                            hover: {
+                                enabled: true
+                            }
+                        }
+                    }
+                }
+            },
+
+            series: [
+                {
+                    name: 'Latency',
+                    yAxis: 0,
+                    data: {{ hist_lat }}
+                }
+            ]
+});
 
 /*
  BANDWIDTH HISTOGRAM
@@ -198,32 +190,27 @@ $('#histogram_bw').highcharts({
                 {
                     allowDecimals: true,
                     categories: {{ bins_bw }},
-        labels
-:
-{
-    formatter: function () {
-        return print_bw(Math.round(this.value)); // clean, unformatted number for year
-    }
-}
-}],
-yAxis: [
-    {
-        title: {
-            text: 'Bandwidth'
-        },
-        labels: {
-            formatter: function () {
-                return 100 * this.value
+                    labels : {
+                        formatter: function () {
+                            return print_bw(Math.round(this.value)); // clean, unformatted number for year
+                        }
+                    }
+                }],
+        yAxis: [
+            {
+                title: {
+                    text: 'Bandwidth'
+                },
+                labels: {
+                    formatter: function () {
+                        return 100 * this.value
+                    }
+                }
             }
-        }
-    }
-],
-        tooltip
-:
-{
-    pointFormat: 'Percentage: <b>{point.y:,.3f}%</b><br/>'
-}
-,
+        ],
+        tooltip : {
+            pointFormat: 'Percentage: <b>{point.y:,.3f}%</b><br/>'
+        },
 
 plotOptions: {
     area: {
@@ -250,8 +237,7 @@ series: [
     {
         name: 'Bandwidth',
         yAxis: 0,
-        data: {{ hist_bw }
-}
+        data: {{ hist_bw }}
 }
 ]
 })

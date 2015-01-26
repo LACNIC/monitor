@@ -5,6 +5,12 @@
     <orderEntry type="jdk" jdkName="Python 2.7.8 virtualenv at ~/Virtualenvs/monitor" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="boomerang" />
+    <orderEntry type="module" module-name="rdap-parser" />
+    <orderEntry type="module" module-name="simple-todos" />
+    <orderEntry type="module" module-name="charts" />
+    <orderEntry type="module" module-name="simon-web" />
+    <orderEntry type="module" module-name="simon-javascript" />
+    <orderEntry type="module" module-name="cosas" />
   </component>
 </module>
 
