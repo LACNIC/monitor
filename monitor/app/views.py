@@ -20,6 +20,11 @@ def parseFloat(string):
 
 @csrf_exempt
 def post(request):
+    """
+    View that attends the measurment POST results.
+    :param request:
+    :return:HTTP 200 OK | ERROR
+    """
     if request.method != 'POST':
         text = "Bad Request"
         print text
@@ -108,7 +113,9 @@ def post(request):
     except Exception as e:
         return HttpResponse("ERROR")
 
-    return HttpResponse("OK")
+    response = HttpResponse("OK")
+    response.__setitem__("Access-Control-Allow-Origin", "*")
+    return response
 
 
 def stats(request):
