@@ -25,6 +25,7 @@ class Medicion(models.Model):
     page = ForeignKey(Page, null=True)
     ip_origin = IPAddressField(default='127.0.0.1')
     ip_destination = IPAddressField(default='127.0.0.1')
+    user_agent = TextField(default='')
 
     nt_red_cnt = FloatField(default=0)
     nt_nav_type = FloatField(default=0)

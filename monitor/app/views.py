@@ -1,4 +1,5 @@
 import math
+from __builtin__ import type
 
 from django.shortcuts import render
 from django.http import HttpResponse
@@ -11,6 +12,11 @@ from models import *
 def home(request):
     return render(request, 'app/home.html', {})
 
+def parseFloat(string):
+    try:
+        return float(string)
+    except Exception as te:
+        return 0.0
 
 @csrf_exempt
 def post(request):
@@ -18,46 +24,53 @@ def post(request):
         text = "Bad Request"
         print text
         return HttpResponse(text)
-    else:
-        http_post = request.POST
-        lat = float(http_post.get('lat'))
-        lat_err = float(http_post.get('lat_err'))
-        bw = float(http_post.get('bw'))
-        bw_err = float(http_post.get('bw_err'))
 
-        print http_post
+    http_post = request.POST
+    lat = float(http_post.get('lat'))
+    lat_err = float(http_post.get('lat_err'))
+    bw = float(http_post.get('bw'))
+    bw_err = float(http_post.get('bw_err'))
 
-        nt_red_cnt = float(http_post.get('nt_red_cnt'))
-        nt_nav_type = float(http_post.get('nt_nav_type'))
-        nt_nav_st = float(http_post.get('nt_nav_st'))
-        nt_red_st = float(http_post.get('nt_red_st'))
-        nt_red_end = float(http_post.get('nt_red_end'))
-        nt_fet_st = float(http_post.get('nt_fet_st'))
-        nt_dns_st = float(http_post.get('nt_dns_st'))
-        nt_dns_end = float(http_post.get('nt_dns_end'))
-        nt_con_st = float(http_post.get('nt_con_st'))
-        nt_con_end = float(http_post.get('nt_con_end'))
-        nt_req_st = float(http_post.get('nt_req_st'))
-        nt_res_st = float(http_post.get('nt_res_st'))
-        nt_res_end = float(http_post.get('nt_res_end'))
-        nt_domloading = float(http_post.get('nt_domloading'))
-        nt_domint = float(http_post.get('nt_domint'))
-        nt_domcontloaded_st = float(http_post.get('nt_domcontloaded_st'))
-        nt_domcontloaded_end = float(http_post.get('nt_domcontloaded_end'))
-        nt_domcomp = float(http_post.get('nt_domcomp'))
-        nt_load_st = float(http_post.get('nt_load_st'))
-        nt_load_end = float(http_post.get('nt_load_end'))
-        nt_unload_st = float(http_post.get('nt_unload_st'))
-        nt_unload_end = float(http_post.get('nt_unload_end'))
-        nt_spdy = float(http_post.get('nt_spdy'))
-        nt_first_paint = float(http_post.get('nt_first_paint'))
-        rt_start = float(http_post.get('rt_start'))
-        rt_tstart = float(http_post.get('rt_tstart'))
-        rt_bstart = float(http_post.get('rt_bstart'))
-        rt_end = float(http_post.get('rt_end'))
-        bw_time = float(http_post.get('bw_time'))
+    url = http_post.get('u')
+    user_agent = http_post.get('user_agent')
 
-        med = Medicion(lat=lat,
+    print http_post
+
+    try:
+        nt_red_cnt = parseFloat(http_post.get('nt_red_cnt'))
+        nt_nav_type = parseFloat(http_post.get('nt_nav_type'))
+        nt_nav_st = parseFloat(http_post.get('nt_nav_st'))
+        nt_red_st = parseFloat(http_post.get('nt_red_st'))
+        nt_red_end = parseFloat(http_post.get('nt_red_end'))
+        nt_fet_st = parseFloat(http_post.get('nt_fet_st'))
+        nt_dns_st = parseFloat(http_post.get('nt_dns_st'))
+        nt_dns_end = parseFloat(http_post.get('nt_dns_end'))
+        nt_con_st = parseFloat(http_post.get('nt_con_st'))
+        nt_con_end = parseFloat(http_post.get('nt_con_end'))
+        nt_req_st = parseFloat(http_post.get('nt_req_st'))
+        nt_res_st = parseFloat(http_post.get('nt_res_st'))
+        nt_res_end = parseFloat(http_post.get('nt_res_end'))
+        nt_domloading = parseFloat(http_post.get('nt_domloading'))
+        nt_domint = parseFloat(http_post.get('nt_domint'))
+        nt_domcontloaded_st = parseFloat(http_post.get('nt_domcontloaded_st'))
+        nt_domcontloaded_end = parseFloat(http_post.get('nt_domcontloaded_end'))
+        nt_domcomp = parseFloat(http_post.get('nt_domcomp'))
+        nt_load_st = parseFloat(http_post.get('nt_load_st'))
+        nt_load_end = parseFloat(http_post.get('nt_load_end'))
+        nt_unload_st = parseFloat(http_post.get('nt_unload_st'))
+        nt_unload_end = parseFloat(http_post.get('nt_unload_end'))
+        nt_spdy = parseFloat(http_post.get('nt_spdy'))
+        nt_first_paint = parseFloat(http_post.get('nt_first_paint'))
+        rt_start = parseFloat(http_post.get('rt.start'))
+        rt_tstart = parseFloat(http_post.get('rt.tstart'))
+        rt_bstart = parseFloat(http_post.get('rt.bstart'))
+        rt_end = parseFloat(http_post.get('rt.end'))
+        bw_time = parseFloat(http_post.get('bw_time'))
+
+        med = Medicion(url=url,
+                       user_agent=user_agent,
+
+                       lat=lat,
                        lat_err=lat_err,
                        bw=bw,
                        bw_err=bw_err,
@@ -92,7 +105,10 @@ def post(request):
                        bw_time=bw_time
                        )
         med.save()
-        return HttpResponse("OK")
+    except Exception as e:
+        return HttpResponse("ERROR")
+
+    return HttpResponse("OK")
 
 
 def stats(request):
