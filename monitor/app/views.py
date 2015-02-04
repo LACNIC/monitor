@@ -25,10 +25,14 @@ def post(request):
     :param request:
     :return:HTTP 200 OK | ERROR
     """
-    if request.method != 'POST':
-        text = "Bad Request"
-        print text
-        return HttpResponse(text)
+    if request.method == 'OPTIONS':
+        response = HttpResponse("")
+        response['Access-Control-Allow-Origin'] = "*"
+        response['Access-Control-Allow-Methods'] = "POST, GET, OPTIONS"
+        response['Access-Control-Allow-Headers'] = "X-Requested-With"
+        return response
+    elif request.method != 'POST':
+        return HttpResponse("Bad Request")
 
     http_post = request.POST
     lat = float(http_post.get('lat'))
@@ -38,8 +42,6 @@ def post(request):
 
     url = http_post.get('u')
     user_agent = http_post.get('user_agent')
-
-    print http_post
 
     try:
         nt_red_cnt = parseFloat(http_post.get('nt_red_cnt'))
@@ -112,11 +114,12 @@ def post(request):
         med.save()
     except Exception as e:
         response = HttpResponse("ERROR")
-        response.__setitem__("Access-Control-Allow-Origin", "*")
         return response
 
     response = HttpResponse("OK")
-    response.__setitem__("Access-Control-Allow-Origin", "*")
+    response["Access-Control-Allow-Origin"] = "*"
+    response["Access-Control-Allow-Methods"] = "POST, GET, OPTIONS"
+    # response.__setitem__("Access-Control-Allow-Origin", "*")
     return response
 
 
