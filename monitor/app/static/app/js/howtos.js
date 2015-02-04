@@ -51,9 +51,10 @@ BOOMR.subscribe('before_beacon', function(o) {
 
     jQuery.ajax(
         {
-            url: "http://ec2-54-213-1-159.us-west-2.compute.amazonaws.com:8000/post/",
+            url: "http://ec2-54-213-1-159.us-west-2.compute.amazonaws.com/post/",
             type: "POST",
-            data: json
+            data: json,
+            crossDomain: true
         }
     );
 });

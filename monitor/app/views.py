@@ -111,7 +111,9 @@ def post(request):
                        )
         med.save()
     except Exception as e:
-        return HttpResponse("ERROR")
+        response = HttpResponse("ERROR")
+        response.__setitem__("Access-Control-Allow-Origin", "*")
+        return response
 
     response = HttpResponse("OK")
     response.__setitem__("Access-Control-Allow-Origin", "*")
