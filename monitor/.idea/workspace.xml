@@ -1729,11 +1729,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/boomerang-master/tests/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/boomerang-master/zzz_last_plugin.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lacnic-charts/charts/db.sqlite3" afterPath="$PROJECT_DIR$/../../lacnic-charts/charts/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/home.html" afterPath="$PROJECT_DIR$/app/templates/app/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/js/howtos.js" afterPath="$PROJECT_DIR$/app/static/app/js/howtos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../rdap-parser/models.py" afterPath="$PROJECT_DIR$/../../rdap-parser/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monitor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1774,8 +1772,8 @@
           <file leaf-file-name="howtos.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8208955" vertical-offset="0" max-vertical-offset="1005">
-                  <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.80597013" vertical-offset="0" max-vertical-offset="1005">
+                  <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -2697,8 +2695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8208955" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.80597013" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
       </provider>
