@@ -13,7 +13,6 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
@@ -21,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'l_1(qzd#nkgn6uyd(f)$^f@k=^tqsdexysz$@$p053xv3!m95!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ADMINS = (
     ('Agustin Formoso', 'aguformoso@gmail.com')
@@ -29,7 +28,7 @@ ADMINS = (
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://ec2-54-94-179-9.sa-east-1.compute.amazonaws.com']
 
 
 # Application definition
@@ -67,12 +66,24 @@ WSGI_APPLICATION = 'monitor.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+if DEBUG:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
     }
-}
+else:
+    DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'monitor',
+        'USER': 'monitor',
+        'PASSWORD': '9VDVZ2JEPnTfLu',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+        }
+    }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
