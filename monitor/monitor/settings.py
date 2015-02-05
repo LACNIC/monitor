@@ -42,16 +42,21 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'corsheaders'
 )
 
 MIDDLEWARE_CLASSES = (
+
+    # CORS Middleware to allow Cross-Domain POSTs
+    'corsheaders.middleware.CorsMiddleware',
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware'
 )
 
 ROOT_URLCONF = 'monitor.urls'
@@ -88,3 +93,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = "%s/../app/static/" % os.getcwd()
+
+# Allow all sites to do CORS requests
+CORS_ORIGIN_ALLOW_ALL = True
+

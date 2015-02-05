@@ -51,7 +51,7 @@ class Medicion(models.Model):
     nt_unload_end = FloatField(default=0)
     nt_spdy = FloatField(default=0)
     nt_first_paint = FloatField(default=0)
-    rt_start = FloatField(default=0)
+    rt_start = models.TextField(default="")
     rt_tstart = FloatField(default=0)
     rt_bstart = FloatField(default=0)
     rt_end = FloatField(default=0)

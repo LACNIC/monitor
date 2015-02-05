@@ -16,6 +16,7 @@ def parseFloat(string):
     try:
         return float(string)
     except Exception as te:
+        print te.message
         return 0.0
 
 @csrf_exempt
@@ -25,13 +26,10 @@ def post(request):
     :param request:
     :return:HTTP 200 OK | ERROR
     """
-    if request.method == 'OPTIONS':
-        response = HttpResponse("")
-        response['Access-Control-Allow-Origin'] = "*"
-        response['Access-Control-Allow-Methods'] = "POST, GET, OPTIONS"
-        response['Access-Control-Allow-Headers'] = "X-Requested-With"
-        return response
-    elif request.method != 'POST':
+
+    print request.method
+
+    if request.method != 'POST':
         return HttpResponse("Bad Request")
 
     http_post = request.POST
@@ -68,7 +66,7 @@ def post(request):
         nt_unload_end = parseFloat(http_post.get('nt_unload_end'))
         nt_spdy = parseFloat(http_post.get('nt_spdy'))
         nt_first_paint = parseFloat(http_post.get('nt_first_paint'))
-        rt_start = parseFloat(http_post.get('rt.start'))
+        rt_start = http_post.get('rt.start')
         rt_tstart = parseFloat(http_post.get('rt.tstart'))
         rt_bstart = parseFloat(http_post.get('rt.bstart'))
         rt_end = parseFloat(http_post.get('rt.end'))
@@ -113,13 +111,11 @@ def post(request):
                        )
         med.save()
     except Exception as e:
+        print e
         response = HttpResponse("ERROR")
         return response
 
     response = HttpResponse("OK")
-    response["Access-Control-Allow-Origin"] = "*"
-    response["Access-Control-Allow-Methods"] = "POST, GET, OPTIONS"
-    # response.__setitem__("Access-Control-Allow-Origin", "*")
     return response
 
 
