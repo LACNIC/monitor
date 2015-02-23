@@ -11,6 +11,7 @@
     <orderEntry type="module" module-name="simon-web" />
     <orderEntry type="module" module-name="simon-javascript" />
     <orderEntry type="module" module-name="cosas" />
+    <orderEntry type="module" module-name="simon-wimi" />
   </component>
 </module>
 

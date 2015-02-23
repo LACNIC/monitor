@@ -20,20 +20,21 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'l_1(qzd#nkgn6uyd(f)$^f@k=^tqsdexysz$@$p053xv3!m95!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ADMINS = (
-    ('Agustin Formoso', 'aguformoso@gmail.com')
+    ('Agustin Formoso', 'agustin@lacnic.net')
 )
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['http://ec2-54-94-179-9.sa-east-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-54-94-179-9.sa-east-1.compute.amazonaws.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = (
+    'django_admin_bootstrapped',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -53,7 +54,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    # 'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware'
 )
@@ -66,24 +67,12 @@ WSGI_APPLICATION = 'monitor.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
-if DEBUG:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
-else:
-    DATABASES = {
+DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'monitor',
-        'USER': 'monitor',
-        'PASSWORD': '9VDVZ2JEPnTfLu',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
@@ -102,8 +91,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
-STATIC_URL = '/static/'
-STATIC_ROOT = "%s/../app/static/" % os.getcwd()
+STATIC_URL = "/static/"
+STATIC_ROOT = "%s/app/static/" % os.getcwd()
 
 # Allow all sites to do CORS requests
 CORS_ORIGIN_ALLOW_ALL = True

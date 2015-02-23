@@ -51,7 +51,7 @@ BOOMR.subscribe('before_beacon', function(o) {
 
     jQuery.ajax(
         {
-            url: "http://ec2-54-94-179-9.sa-east-1.compute.amazonaws.com/post/",
+            url: "http://127.0.0.1:8000/post/",
             type: "POST",
             data: json,
             crossDomain: true
