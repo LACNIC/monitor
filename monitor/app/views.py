@@ -4,12 +4,14 @@ from __builtin__ import type
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-import numpy as np
+# import numpy as np
 
 from models import *
+from monitor import settings
 
 
 def home(request):
+
     return render(request, 'app/home.html', {})
 
 def parseFloat(string):
@@ -119,47 +121,47 @@ def post(request):
     return response
 
 
-def stats(request):
-    lat = Medicion.objects.filter(lat__lte=900, bw__lte=20000000)[:1000]
-    # latency
-    lat_flat = list(lat.values_list('lat', flat=True))
-    hist_lat, bin_edges = np.histogram(lat_flat, bins=30, normed=True)
-    hist_lat = hist_lat.tolist()
-    bin_edges = bin_edges.tolist()
-    # preparar los bins para poder imprimirlos
-    bins_lat = []
-    previous = -1
-    for edge in bin_edges:
-        if previous == -1:
-            previous = edge
-            continue
-        bins_lat.append((previous + edge) / 2)
+# def stats(request):
+#     lat = Medicion.objects.filter(lat__lte=900, bw__lte=20000000)[:1000]
+#     # latency
+#     lat_flat = list(lat.values_list('lat', flat=True))
+#     hist_lat, bin_edges = np.histogram(lat_flat, bins=30, normed=True)
+#     hist_lat = hist_lat.tolist()
+#     bin_edges = bin_edges.tolist()
+#     # preparar los bins para poder imprimirlos
+#     bins_lat = []
+#     previous = -1
+#     for edge in bin_edges:
+#         if previous == -1:
+#             previous = edge
+#             continue
+#         bins_lat.append((previous + edge) / 2)
+#
+#     # bandwidth
+#     bw_flat = list(lat.values_list('bw', flat=True))
+#     hist_bw, bin_edges = np.histogram(bw_flat, bins=int(math.sqrt(len(bw_flat))), normed=True)
+#     hist_bw = hist_bw.tolist()
+#     bin_edges = bin_edges.tolist()
+#     # preparar los bins para poder imprimirlos
+#     bins_bw = []
+#     previous = -1
+#     for edge in bin_edges:
+#         if previous == -1:
+#             previous = edge
+#             continue
+#         bins_bw.append((previous + edge) / 2)
+#
+#     return render(request, 'app/stats2.html', {'data': lat,
+#                                                'lat': lat_flat,
+#                                                'bw': list(lat.values_list('bw', flat=True)),
+#                                                'hist_lat': hist_lat,
+#                                                'bins_lat': bins_lat,
+#                                                'hist_bw': hist_bw,
+#                                                'bins_bw': bins_bw,
+#                                                'pages': Page.objects.all()
+#                                             }
+#     )
 
-    # bandwidth
-    bw_flat = list(lat.values_list('bw', flat=True))
-    hist_bw, bin_edges = np.histogram(bw_flat, bins=int(math.sqrt(len(bw_flat))), normed=True)
-    hist_bw = hist_bw.tolist()
-    bin_edges = bin_edges.tolist()
-    # preparar los bins para poder imprimirlos
-    bins_bw = []
-    previous = -1
-    for edge in bin_edges:
-        if previous == -1:
-            previous = edge
-            continue
-        bins_bw.append((previous + edge) / 2)
 
-    return render(request, 'app/stats2.html', {'data': lat,
-                                               'lat': lat_flat,
-                                               'bw': list(lat.values_list('bw', flat=True)),
-                                               'hist_lat': hist_lat,
-                                               'bins_lat': bins_lat,
-                                               'hist_bw': hist_bw,
-                                               'bins_bw': bins_bw,
-                                               'pages': Page.objects.all()
-                                            }
-    )
-
-
-def home(request):
-    return render(request, 'app/home.html')
+# def home(request):
+#     return render(request, 'app/home.html')

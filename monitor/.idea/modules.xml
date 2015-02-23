@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../rdap-parser/.idea/rdap-parser.iml" filepath="$PROJECT_DIR$/../../rdap-parser/.idea/rdap-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../simon/simon-javascript/.idea/simon-javascript.iml" filepath="$PROJECT_DIR$/../../simon/simon-javascript/.idea/simon-javascript.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../simon/simon-web/.idea/simon-web.iml" filepath="$PROJECT_DIR$/../../simon/simon-web/.idea/simon-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../simon/simon-wimi/.idea/simon-wimi.iml" filepath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/simon-wimi.iml" />
       <module fileurl="file://$USER_HOME$/Desktop/simple-todos/.idea/simple-todos.iml" filepath="$USER_HOME$/Desktop/simple-todos/.idea/simple-todos.iml" />
     </modules>
   </component>
