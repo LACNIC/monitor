@@ -1,0 +1,21 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 0.9em;
+    background-color: #505050;
+    padding: 5% 10% 15% 10%;
+    margin: 0;
+    font-family: "Trebuchet MS", Trebuchet, Tahoma, Verdana, Sans-Serif;
+
+    height: 100%;
+    text-align: center;
+}
+
+img {
+    left: auto;
+    right: auto;
+    position: relative;
+    top: 10%;
+}
