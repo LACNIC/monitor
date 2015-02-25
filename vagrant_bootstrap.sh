@@ -4,8 +4,10 @@ apt-get update
 
 apt-get -y --force-yes install \
 git \
-python-dev \
 apache2
+
+sudo apt-get install python-dev apache2-dev
+sudo apt-get install postgresql postgresql-contrib
 
 wget https://bootstrap.pypa.io/get-pip.py && python get-pip.py && rm get-pip.py
 
