@@ -29,7 +29,9 @@ def post(request):
     :return:HTTP 200 OK | ERROR
     """
 
-    print request.method
+
+    now = datetime.now()
+    print now
 
     if request.method != 'POST':
         return HttpResponse("Bad Request")
@@ -76,6 +78,7 @@ def post(request):
 
         med = Medicion(url=url,
                        user_agent=user_agent,
+                       date=now,
 
                        lat=lat,
                        lat_err=lat_err,
