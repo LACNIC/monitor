@@ -4,11 +4,8 @@ from __builtin__ import type
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-# import numpy as np
-
+from datetime import datetime
 from models import *
-from monitor import settings
-
 
 def home(request):
 
@@ -37,10 +34,10 @@ def post(request):
         return HttpResponse("Bad Request")
 
     http_post = request.POST
-    lat = float(http_post.get('lat'))
-    lat_err = float(http_post.get('lat_err'))
-    bw = float(http_post.get('bw'))
-    bw_err = float(http_post.get('bw_err'))
+    lat = parseFloat(http_post.get('lat'))
+    lat_err = parseFloat(http_post.get('lat_err'))
+    bw = parseFloat(http_post.get('bw'))
+    bw_err = parseFloat(http_post.get('bw_err'))
 
     url = http_post.get('u')
     user_agent = http_post.get('user_agent')

@@ -2,976 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ffb719-fdc2-40e0-bc3a-eb5252c24ae8" name="Default" comment=" *">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/geolocation/GeoLite2-City.mmdb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/admin/css/monitor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/simon-wimi.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/trigger.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../cosas/.ls-deploys.bash.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/d3/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/d3/d3.v3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/d3/d3.v3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/heatmap/bioheatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/FUTURE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/TODO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/antibiotics/antibiotics-scatter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/antibiotics/antibiotics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/antibiotics/antibiotics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/barley/barley.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/barley/barley.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/cars/cars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/cars/cars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/clock/clock.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/crimea/crimea-grouped-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/crimea/crimea-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/crimea/crimea-stacked-area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/crimea/crimea-stacked-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/crimea/crimea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/crimea/crimea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/downloadify/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/downloadify/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/downloadify/downloadify.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/downloadify/downloadify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/downloadify/downloadify.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/downloadify/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/ex.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/eyes/eyes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/eyes/matrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/flowers/flowers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/flowers/flowers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/group-stack/group-stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/group-stack/headcount.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/hotel/hotel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/hotel/hotel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/jobs/jobs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/jobs/jobs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/jquery-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/nba/nba.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/nba/nba.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/nba/nba2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/sankey/gdp2009.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/sankey/sankey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/cell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/cell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/horizon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/jquery-ui-1.8rc3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/slider/ui-lightness/jquery-ui-1.8rc3.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/tipsy/jquery.tipsy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/tipsy/tipsy-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/tipsy/tipsy-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/tipsy/tipsy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/tipsy/tipsy.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/tipsy/tipsy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/weather/weather.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/weather/weather.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/wheat/wheat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/examples/wheat/wheat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/lib/google-compiler/COPYING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/lib/google-compiler/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/lib/google-compiler/compiler-20100201.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/protovis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/protovis.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Behavior.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Drag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Pan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Point.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/behavior/Zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/color/Color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/color/Colors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/color/Ramp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Arrays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Flatten.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Histogram.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/LinearScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/LogScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Nest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Objects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/OrdinalScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/QuantileScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/QuantitativeScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/RootScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/data/Vector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/geo/Geo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/geo/GeoScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/geo/LatLng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/geo/Projection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/geo/Projections.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/lang/Array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/lang/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Bullet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Cluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Force.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Hierarchy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Horizon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Indent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Network.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Partition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Rollup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/layout/Treemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Area.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Dot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Mark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Rule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/mark/Wedge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/BoundConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/ChargeForce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/CollisionConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/Constraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/DragForce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/Force.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/Particle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/PositionConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/Quadtree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/Simulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/physics/SpringForce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/pv-internals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/pv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgBar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgCurve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgDot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgImage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgLabel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgPanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgRule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgScene.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/scene/SvgWedge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/text/DateFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/text/Format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/text/NumberFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/src/text/TimeFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/drag-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/drag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/drag2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-area-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-area-stacked2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-dot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-lines-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-lines.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/point-wedge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/resize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/behavior/select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/bzr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/deviation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/histogram-discrete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/histogram.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/log-adjusted.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/log-ceil.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/log-floor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/log-symmetric.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/max-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/max.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/min-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/min.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/ordinal-split-banded.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/ordinal-split-banded2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/ordinal-split-flush.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/ordinal-split.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-date.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-date2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-date3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-date4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-degenerate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-linear.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-log2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-log3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-log4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-log5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-log6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-quantile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-quantile2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-quantile3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-root.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-root2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-tick-format.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/scale-ticks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/sum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/data/variance.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/diamond.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/flare-imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/flare.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/countries-hires.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/countries-lores.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/population.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-aitoff.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-gall-peters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-hammer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-identity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-mercator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-sinusoidal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale-smart-domain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/scale2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/geo/us-states.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/lang/globals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/lang/init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/arc-directed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/arc-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/arc-undirected.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/arc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/arc2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/bullet-multiples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/bullet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/bullets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-fill-group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-partition-radial-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-radial-fill-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-radial-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-radial-group-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-radial-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster-radial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/cluster2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/force-toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/force.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/force2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/force3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/force4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/force5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/grid-cols.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/grid-heatmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/grid-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/horizon-color.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/horizon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/indent-toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/indent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/indent2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/matrix-sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/matrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/network.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/pack-bubble.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/pack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/pack2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-fill2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-fill3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition-radial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/partition2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/rollup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack-empty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack-expand.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack-reverse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack-right.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack-rule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack-visible.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/tree-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/tree-radial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/tree-toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/tree2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/treemap-hierarchy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/treemap-margin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/treemap-round.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/treemap-slice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/layout/treemap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/life.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-anchor-chain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-anchor-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-anchor-stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-anchor2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-segmented-basis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-segmented-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-segmented-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-segmented-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-segmented.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-stacked-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-stacked-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area-zero.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-anchor-stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-column-grouped.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-column-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-grouped.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/cursor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/def-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/dot-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/dot-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/dot-stroke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/dot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/dot2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/event-dblclick.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/event-prototype.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/event-render.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/event.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/image-color-inherit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/image-color.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/image-color2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/image-heatmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/label-break.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/label-decoration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/label-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-basis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-brownian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-catmull-rom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-curve.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-eccentricity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-join.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-monotone-non-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-monotone-two-way.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-polar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-basis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-join.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-polar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented-step2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-segmented.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line-tension.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-anchor2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-anchor3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-anchor4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-anchor5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-append.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-mouse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/panel-transform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/property-cast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/render-partial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/rule-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/title.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/wedge-donut.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/wedge-implied.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/wedge-pie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/mark/wedge-ring.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/miserables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/physics/dorling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/physics/simulation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/social.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/stanford.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/testify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/testify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/mbostock-protovis-1a61bac/tests/text/format-number.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/boomerang.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/dns.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/TODO.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/BOOMR.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/BOOMR.utils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/BW.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/DNS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/RT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/ipv6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/api/navtiming.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/boomerang-docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/community.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/dynamic-content.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-10-page#1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-10-page#2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-1a-page#1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-1a-page#2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-1b-page#1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-1b-page#2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howto-9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/howtos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/howtos/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/TODO.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/BOOMR.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/BOOMR.utils.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/BW.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/DNS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/RT.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/ipv6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/api/navtiming.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/community.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/dynamic-content.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-0.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-10-page#1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-10-page#2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-1a-page#1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-1a-page#2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-1b-page#1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-1b-page#2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/howto-9.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/howtos/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/methodology.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/press.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/ja/use-cases.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/methodology.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/press.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/doc/use-cases.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/images/image-l.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/ipv6.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/navtiming.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/tests/1-basic.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/tests/2-init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/tests/3-initparams.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/tests/4-event.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/boomerang-master/zzz_last_plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/d3/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/d3/d3.v3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/d3/d3.v3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/heatmap/bioheatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/FUTURE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/TODO" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/antibiotics/antibiotics-scatter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/antibiotics/antibiotics.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/antibiotics/antibiotics.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/barley/barley.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/barley/barley.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/cars/cars.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/cars/cars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/clock/clock.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/crimea/crimea-grouped-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/crimea/crimea-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/crimea/crimea-stacked-area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/crimea/crimea-stacked-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/crimea/crimea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/crimea/crimea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/downloadify/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/downloadify/download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/downloadify/downloadify.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/downloadify/downloadify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/downloadify/downloadify.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/downloadify/swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/ex.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/eyes/eyes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/eyes/matrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/flowers/flowers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/flowers/flowers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/group-stack/group-stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/group-stack/headcount.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/hotel/hotel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/hotel/hotel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/jobs/jobs.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/jobs/jobs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/jquery-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/nba/nba.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/nba/nba.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/nba/nba2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/sankey/gdp2009.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/sankey/sankey.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/cell.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/cell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/horizon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/jquery-ui-1.8rc3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_228ef1_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/slider/ui-lightness/jquery-ui-1.8rc3.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/tipsy/jquery.tipsy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/tipsy/tipsy-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/tipsy/tipsy-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/tipsy/tipsy.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/tipsy/tipsy.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/tipsy/tipsy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/weather/weather.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/weather/weather.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/wheat/wheat.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/examples/wheat/wheat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/lib/google-compiler/COPYING" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/lib/google-compiler/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/lib/google-compiler/compiler-20100201.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/protovis.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/protovis.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Behavior.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Drag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Pan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Point.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/behavior/Zoom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/color/Color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/color/Colors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/color/Ramp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Arrays.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Dom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Flatten.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Histogram.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/LinearScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/LogScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Nest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Numbers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Objects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/OrdinalScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/QuantileScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/QuantitativeScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/RootScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Transform.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/data/Vector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/geo/Geo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/geo/GeoScale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/geo/LatLng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/geo/Projection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/geo/Projections.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/lang/Array.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/lang/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Bullet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Cluster.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Force.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Grid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Hierarchy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Horizon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Indent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Layout.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Matrix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Network.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Partition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Rollup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/layout/Treemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Area.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Dot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Mark.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Rule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/mark/Wedge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/BoundConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/ChargeForce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/CollisionConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/Constraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/DragForce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/Force.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/Particle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/PositionConstraint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/Quadtree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/Simulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/physics/SpringForce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/pv-internals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/pv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgBar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgCurve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgDot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgImage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgLabel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgLine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgPanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgRule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgScene.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/scene/SvgWedge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/text/DateFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/text/Format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/text/NumberFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/src/text/TimeFormat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/drag-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/drag.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/drag2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-area-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-area-stacked2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-dot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-lines-grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-lines.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/point-wedge.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/resize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/behavior/select.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/bzr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/deviation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/histogram-discrete.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/histogram.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/log-adjusted.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/log-ceil.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/log-floor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/log-symmetric.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/max-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/max.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/min-index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/min.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/ordinal-split-banded.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/ordinal-split-banded2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/ordinal-split-flush.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/ordinal-split.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-date.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-date2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-date3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-date4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-degenerate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-linear.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-log.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-log2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-log3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-log4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-log5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-log6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-quantile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-quantile2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-quantile3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-root.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-root2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-tick-format.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/scale-ticks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/sum.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/data/variance.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/diamond.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/flare-imports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/flare.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/countries-hires.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/countries-lores.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/population.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-aitoff.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-gall-peters.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-hammer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-identity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-mercator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-sinusoidal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale-smart-domain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/scale2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/geo/us-states.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/heatmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/lang/globals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/lang/init.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/arc-directed.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/arc-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/arc-undirected.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/arc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/arc2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/bullet-multiples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/bullet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/bullets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-fill-group.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-partition-radial-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-radial-fill-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-radial-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-radial-group-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-radial-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster-radial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/cluster2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/force-toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/force.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/force2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/force3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/force4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/force5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/grid-cols.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/grid-heatmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/grid-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/grid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/horizon-color.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/horizon.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/indent-toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/indent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/indent2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/matrix-sort.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/matrix.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/network.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/pack-bubble.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/pack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/pack2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-fill2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-fill3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial-fill3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition-radial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/partition2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/rollup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack-empty.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack-expand.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack-reverse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack-right.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack-rule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack-visible.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/tree-radial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/tree-radial2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/tree-toggle.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/tree2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/treemap-hierarchy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/treemap-margin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/treemap-round.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/treemap-slice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/layout/treemap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/life.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-anchor-chain.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-anchor-line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-anchor-stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-anchor2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-segmented-basis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-segmented-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-segmented-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-segmented-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-segmented.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-stacked-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-stacked-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area-zero.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/area.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-anchor-stack.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-column-grouped.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-column-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-column.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-grouped.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar-stacked.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/cursor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/def-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/dot-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/dot-radius.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/dot-stroke.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/dot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/dot2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/event-dblclick.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/event-prototype.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/event-render.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/event.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/image-color-inherit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/image-color.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/image-color2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/image-heatmap.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/image.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/label-break.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/label-decoration.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/label-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-basis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-brownian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-catmull-rom.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-curve.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-eccentricity.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-join.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-monotone-non-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-monotone-two-way.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-polar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-basis.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-cardinal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-join.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-monotone.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-polar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented-step2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-segmented.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-step.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line-tension.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-anchor2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-anchor3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-anchor4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-anchor5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-append.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-fill.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-mouse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/panel-transform.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/property-cast.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/render-partial.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/rule-anchor.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/title.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/wedge-donut.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/wedge-implied.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/wedge-pie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/mark/wedge-ring.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/miserables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/physics/dorling.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/physics/simulation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/social.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/stanford.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/testify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/testify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/mbostock-protovis-1a61bac/tests/text/format-number.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lacnic-charts/charts/db.sqlite3" afterPath="$PROJECT_DIR$/../../lacnic-charts/charts/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-wimi/sqlite.db" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/sqlite.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/34cdb56b2c.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/34cdb56b2c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/FixedColumns/docs/91bce7c4ad.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/FixedColumns/docs/91bce7c4ad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/ColReorder/media/docs/ColReorder.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/ColReorder/media/docs/ColReorder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/ColVis/media/docs/ColVis.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/ColVis/media/docs/ColVis.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.defaults.columns.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.defaults.columns.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.defaults.oLanguage.oPaginate.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.defaults.oLanguage.oPaginate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.defaults.oSearch.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.defaults.oSearch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oColumn.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oColumn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.oFeatures.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.oFeatures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.oPreviousSearch.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.oPreviousSearch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.oScroll.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/docs/DataTable.models.oSettings.oScroll.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/FixedColumns/docs/FixedColumns.defaults.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/FixedColumns/docs/FixedColumns.defaults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/FixedColumns/docs/FixedColumns.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/FixedColumns/docs/FixedColumns.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-applet/src/simon/client/latency/testers/NtpTester.java" afterPath="$PROJECT_DIR$/../../simon/simon-applet/src/simon/client/latency/testers/NtpTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/Scroller/media/docs/Scroller.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/Scroller/media/docs/Scroller.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/Scroller/media/docs/Scroller.oDefaults.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/Scroller/media/docs/Scroller.oDefaults.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/api_views.py" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/api_views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/Scroller/media/docs/baed189d4a.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/Scroller/media/docs/baed189d4a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/custom_vars.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/custom_vars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/ajax/deep.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/ajax/deep.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/development-bundle/docs/dialog.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/development-bundle/docs/dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/editable.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/editable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/ColReorder/media/docs/global.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/extras/ColReorder/media/docs/global.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/home.html" afterPath="$PROJECT_DIR$/app/templates/app/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/home.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/js/howtos.js" afterPath="$PROJECT_DIR$/app/static/app/js/howtos.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/index.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/jsonp.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/jsonp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cosas/ls-deploys.py" afterPath="$PROJECT_DIR$/../../cosas/ls-deploys.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../rdap-parser/models.py" afterPath="$PROJECT_DIR$/../../rdap-parser/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/css/monitor.css" afterPath="$PROJECT_DIR$/app/static/app/css/monitor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/js/monitor.js" afterPath="$PROJECT_DIR$/app/static/app/js/monitor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/object_data.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/server_side/object_data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/ajax/objects.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/ajax/objects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/ajax/objects_subarrays.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/DataTables-1.9.3/examples/ajax/objects_subarrays.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe.js" afterPath="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/simon_probe.js" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/simon_probe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js" afterPath="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/simon_probe_plugin.js" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/simon_probe_plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/development-bundle/docs/slider.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/development-bundle/docs/slider.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/development-bundle/docs/tabs.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/static/js/jquery-ui-1.8.23.custom/development-bundle/docs/tabs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/views.py" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="monitor.iws" />
@@ -1001,18 +39,48 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="960">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="825">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monitor.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/app/js/monitor.js">
+      <file leaf-file-name="charts_reports.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/charts_reports.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10584678" vertical-offset="0" max-vertical-offset="3810">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="11370">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monitor/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1575">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2475">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ls-deploys.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../cosas/ls-deploys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1500">
+              <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1021,7 +89,7 @@
       <file leaf-file-name="boomerang.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/app/js/boomerang.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="14265">
+            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="14340">
               <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
@@ -1033,45 +101,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navtiming.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/app/js/navtiming.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/app/js/rt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10860">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="howtos.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="howtos.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.7164179" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monitor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/app/js/monitor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3810">
+              <caret line="248" column="163" selection-start-line="248" selection-start-column="163" selection-end-line="248" selection-end-column="163" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1097,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/static/app/js/boomerang.js" />
         <option value="$PROJECT_DIR$/app/static/app/js/rt.js" />
         <option value="$USER_HOME$/Downloads/boomerang-master-2/doc/howtos/howto-6.html" />
         <option value="$PROJECT_DIR$/app/static/app/js/simulacion.py" />
@@ -1140,14 +189,15 @@
         <option value="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/monitor/passwords.py" />
-        <option value="$PROJECT_DIR$/monitor/settings.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/static/admin/css/monitor.css" />
         <option value="$PROJECT_DIR$/app/static/app/css/monitor.css" />
-        <option value="$PROJECT_DIR$/app/templates/app/home.html" />
-        <option value="$PROJECT_DIR$/../../cosas/ls-deploys.py" />
         <option value="$PROJECT_DIR$/app/static/app/js/howtos.js" />
         <option value="$PROJECT_DIR$/app/static/app/js/monitor.js" />
+        <option value="$PROJECT_DIR$/app/static/app/js/trigger.js" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/monitor/settings.py" />
+        <option value="$PROJECT_DIR$/../../cosas/ls-deploys.py" />
+        <option value="$PROJECT_DIR$/app/templates/app/home.html" />
       </list>
     </option>
   </component>
@@ -1181,6 +231,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -1205,128 +265,6 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1617,7 +555,11 @@
       <created>1423154464725</created>
       <updated>1423154464725</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Minified version of the Web performance scripts">
+      <created>1426012294539</created>
+      <updated>1426012294539</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1691,26 +633,13 @@
     <MESSAGE value=" - Brought some static files from production server" />
     <MESSAGE value=" - Don´t reformat code / Optimize imports / Code analysis" />
     <MESSAGE value=" * Checking production environment" />
-    <option name="LAST_COMMIT_MESSAGE" value=" * Checking production environment" />
+    <MESSAGE value="Minified version of the Web performance scripts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minified version of the Web performance scripts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_project/passwords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637" vertical-offset="0" max-vertical-offset="825">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64179105" vertical-offset="1860" max-vertical-offset="2865">
-          <caret line="167" column="5" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../boomerang/doc/howtos/howtos.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6502016" vertical-offset="0" max-vertical-offset="992">
@@ -1719,13 +648,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../boomerang/boomerang.js">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26008064" vertical-offset="6477" max-vertical-offset="8850">
           <caret line="454" column="22" selection-start-line="454" selection-start-column="22" selection-end-line="454" selection-end-column="22" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/monitor/urls.py">
@@ -1816,13 +745,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/static/TestPointslistv4v6.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/simple-todos/simple-todos.html">
@@ -1951,24 +880,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2550">
-          <caret line="48" column="60" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/css/monitor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5522388" vertical-offset="0" max-vertical-offset="1005">
           <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1575">
-          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1986,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2969697" vertical-offset="3715" max-vertical-offset="11265">
-          <caret line="306" column="23" selection-start-line="306" selection-start-column="20" selection-end-line="306" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5963303" vertical-offset="1170" max-vertical-offset="2175">
@@ -2000,13 +908,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../cosas/ls-deploys.py">
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/rt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67164177" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-          <folding>
-            <element signature="e#43#73#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10860">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/navtiming.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/bw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2018,58 +938,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/bw.js">
+    <entry file="file://$PROJECT_DIR$/monitor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8520">
+        <state vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="1575">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../cosas/ls-deploys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="1500">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5074627" vertical-offset="10050" max-vertical-offset="11850">
+          <caret line="707" column="13" selection-start-line="707" selection-start-column="13" selection-end-line="707" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/trigger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/navtiming.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/rt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10860">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.625" vertical-offset="0" max-vertical-offset="960">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/js/monitor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10584678" vertical-offset="0" max-vertical-offset="3810">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3810">
+          <caret line="248" column="163" selection-start-line="248" selection-start-column="163" selection-end-line="248" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2580">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="825">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/charts_reports.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="11370">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7164179" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding />
         </state>
       </provider>
