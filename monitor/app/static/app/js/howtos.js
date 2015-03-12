@@ -47,6 +47,7 @@ BOOMR.subscribe('before_beacon', function(o) {
 		}
 	}
 
+    json['r'] = json['r'].split("?")[0];
     json['user_agent'] = navigator.userAgent;
 
     jQuery.ajax(
