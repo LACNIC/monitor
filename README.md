@@ -32,4 +32,3 @@ Put the following script in pages you want to monitor variuos browser timers, an
         };
 
     }(document, "script"));
-    ```
