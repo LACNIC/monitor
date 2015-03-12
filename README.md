@@ -1,11 +1,9 @@
 # Monitor - Web performance monitoring tool
 
 ## Public script
-Put the following script in pages you want to monitor variuos browser timers, and perceived bandwidth and latency between browser and server. The script loads in an asynchronous way, so it won't block or downgrade usual page paerformance.
+Put the following script in pages you want to monitor variuos browser timers, and perceived bandwidth and latency between browser and server. The script loads in an asynchronous way, so it won't block or downgrade usual page performance.
 
-
-`
-<script>
+```javascript
 (function (d, s) {
         var js = d.createElement(s),
                 sc = d.getElementsByTagName(s)[0];
@@ -16,7 +14,7 @@ Put the following script in pages you want to monitor variuos browser timers, an
 
         js.onload = js.onreadystatechange = function () {
 
-            if(Math.random() > 1.0) {
+            if(Math.random() > <percentage of users monitored>) { // e.g.: 1.0 for 100% users, 0.6 for 60% users being monitored.
                 return;
             }
 
@@ -34,4 +32,4 @@ Put the following script in pages you want to monitor variuos browser timers, an
         };
 
     }(document, "script"));
-    </script>`
+    ```
