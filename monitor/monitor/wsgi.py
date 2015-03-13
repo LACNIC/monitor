@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/1.7/howto/deployment/wsgi/
 
 import os, sys
 
-sys.path.append('/home/ubuntu/monitor/monitor')
+sys.path.append('/opt/django/monitor/monitor')
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "monitor.settings")
 
