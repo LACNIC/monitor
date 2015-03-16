@@ -10,10 +10,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-wimi/sqlite.db" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/sqlite.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/charts_reports.html" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/charts_reports.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/app/home.html" afterPath="$PROJECT_DIR$/app/templates/app/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/app/js/howtos.js" afterPath="$PROJECT_DIR$/app/static/app/js/howtos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../rdap-parser/models.py" afterPath="$PROJECT_DIR$/../../rdap-parser/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/monitor/settings.py" afterPath="$PROJECT_DIR$/monitor/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-web/simon_project/settings.py" afterPath="$PROJECT_DIR$/../../simon/simon-web/simon_project/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js" afterPath="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js" />
@@ -55,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21406728" vertical-offset="0" max-vertical-offset="981">
+            <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="930">
               <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="howtos.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7910448" vertical-offset="0" max-vertical-offset="1005">
+              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -193,7 +202,6 @@
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/../../cosas/ls-deploys.py" />
         <option value="$PROJECT_DIR$/app/static/app/js/boomerang.js" />
-        <option value="$PROJECT_DIR$/app/static/app/js/howtos.js" />
         <option value="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/charts_reports.html" />
         <option value="$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html" />
         <option value="$PROJECT_DIR$/../../simon/simon-web/simon_project/settings.py" />
@@ -207,6 +215,7 @@
         <option value="$PROJECT_DIR$/../../simon/simon-javascript/simon_probe_plugin.js" />
         <option value="$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py" />
         <option value="$PROJECT_DIR$/app/templates/app/home.html" />
+        <option value="$PROJECT_DIR$/app/static/app/js/howtos.js" />
       </list>
     </option>
   </component>
@@ -306,7 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="monitor" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,6 +326,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -628,7 +663,11 @@
       <created>1426262642004</created>
       <updated>1426262642004</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary=" * Point to public Monitor script (with DNS)">
+      <created>1426530762023</created>
+      <updated>1426530762023</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -655,6 +694,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -670,7 +710,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913843" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -705,7 +744,8 @@
     <MESSAGE value="Minified version of the Web performance scripts" />
     <MESSAGE value="Migrating cemd / wimi app to Django 1.7" />
     <MESSAGE value=" *" />
-    <option name="LAST_COMMIT_MESSAGE" value=" *" />
+    <MESSAGE value=" * Point to public Monitor script (with DNS)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" * Point to public Monitor script (with DNS)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -909,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86567163" vertical-offset="0" max-vertical-offset="1005">
-          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/charts_reports.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.715596" vertical-offset="0" max-vertical-offset="11430">
@@ -1082,8 +1115,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21406728" vertical-offset="0" max-vertical-offset="981">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="930">
           <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7910448" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
           <folding />
         </state>
       </provider>
