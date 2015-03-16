@@ -4,7 +4,6 @@
     <list default="true" id="07ffb719-fdc2-40e0-bc3a-eb5252c24ae8" name="Default" comment=" *">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../simon/simon-wimi/.gitignore" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../cosas/.ls-deploys.bash.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/static/app/js/trigger.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-wimi/.settings/org.eclipse.core.resources.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../../simon/simon-wimi/.settings/org.jboss.ide.eclipse.as.core.prefs" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../lacnic-charts/charts/db.sqlite3" afterPath="$PROJECT_DIR$/../../lacnic-charts/charts/db.sqlite3" />
@@ -78,52 +77,8 @@
       <file leaf-file-name="monitor.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/static/app/js/monitor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27217743" vertical-offset="0" max-vertical-offset="3915">
-              <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bw.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/app/js/bw.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8460">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_project/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2578" max-vertical-offset="3570">
-              <caret line="224" column="46" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="46" />
-              <folding>
-                <marker date="1426188993000" expanded="true" signature="1876:2199" placeholder="SELECT MIN(m..simon_app_results..." />
-                <marker date="1426188993000" expanded="true" signature="2249:2550" placeholder="SELECT AVG(t..simon_app_throughputresults..." />
-                <marker date="1426188993000" expanded="true" signature="2613:2681" placeholder="SELECT AVG(a..simon_app_results..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monitor/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state vertical-scroll-proportion="3.9919355" vertical-offset="0" max-vertical-offset="4050">
+              <caret line="264" column="185" selection-start-line="264" selection-start-column="185" selection-end-line="264" selection-end-column="185" />
               <folding />
             </state>
           </provider>
@@ -132,7 +87,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1890" max-vertical-offset="5205">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1830" max-vertical-offset="5145">
               <caret line="126" column="128" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="128" />
               <folding>
                 <marker date="1426278184000" expanded="true" signature="2332:2577" placeholder="select count..country_destination..." />
@@ -698,7 +653,11 @@
       <created>1426530956378</created>
       <updated>1426530956378</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=" * Point to public Monitor script (with DNS)">
+      <created>1426531567672</created>
+      <updated>1426531567672</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1068,68 +1027,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="5145">
-          <caret line="126" column="128" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="128" />
-          <folding>
-            <marker date="1426278184000" expanded="true" signature="2332:2577" placeholder="select count..country_destination..." />
-            <marker date="1426278184000" expanded="true" signature="2366:2459" placeholder="select count..*..." />
-            <marker date="1426278184000" expanded="true" signature="2411:2449" placeholder="select * fro..simon_app_results..." />
-            <marker date="1426278184000" expanded="true" signature="4769:4880" placeholder="SELECT * FRO..simon_app_as..." />
-            <marker date="1426278184000" expanded="true" signature="4769:4862" placeholder="SELECT * FRO..simon_app_as..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_project/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2578" max-vertical-offset="3570">
-          <caret line="224" column="46" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="46" />
-          <folding>
-            <marker date="1426188993000" expanded="true" signature="1876:2199" placeholder="SELECT MIN(m..simon_app_results..." />
-            <marker date="1426188993000" expanded="true" signature="2249:2550" placeholder="SELECT AVG(t..simon_app_throughputresults..." />
-            <marker date="1426188993000" expanded="true" signature="2613:2681" placeholder="SELECT AVG(a..simon_app_results..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-35.25" vertical-offset="909" max-vertical-offset="2235">
           <caret line="117" column="25" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/app/js/bw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8460">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1144,6 +1045,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/bw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8460">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../simon/simon-wimi/cemd/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43283582" vertical-offset="0" max-vertical-offset="2400">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7429435" vertical-offset="2578" max-vertical-offset="3570">
+          <caret line="224" column="46" selection-start-line="224" selection-start-column="46" selection-end-line="224" selection-end-column="46" />
+          <folding>
+            <marker date="1426188993000" expanded="true" signature="-1:-1" placeholder="SELECT MIN(m..simon_app_results..." />
+            <marker date="1426188993000" expanded="true" signature="-1:-1" placeholder="SELECT AVG(t..simon_app_throughputresults..." />
+            <marker date="1426188993000" expanded="true" signature="-1:-1" placeholder="SELECT AVG(a..simon_app_results..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitor/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25373134" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../simon/simon-web/simon_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1635" max-vertical-offset="5145">
+          <caret line="126" column="128" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="128" />
+          <folding>
+            <marker date="1426278184000" expanded="true" signature="2332:2577" placeholder="select count..country_destination..." />
+            <marker date="1426278184000" expanded="true" signature="2366:2459" placeholder="select count..*..." />
+            <marker date="1426278184000" expanded="true" signature="2411:2449" placeholder="select * fro..simon_app_results..." />
+            <marker date="1426278184000" expanded="true" signature="4769:4880" placeholder="SELECT * FRO..simon_app_as..." />
+            <marker date="1426278184000" expanded="true" signature="4769:4862" placeholder="SELECT * FRO..simon_app_as..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/app/js/howtos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/app/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="930">
@@ -1154,8 +1113,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/app/js/monitor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27217743" vertical-offset="0" max-vertical-offset="3915">
-          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        <state vertical-scroll-proportion="3.9919355" vertical-offset="0" max-vertical-offset="4050">
+          <caret line="264" column="185" selection-start-line="264" selection-start-column="185" selection-end-line="264" selection-end-column="185" />
           <folding />
         </state>
       </provider>
