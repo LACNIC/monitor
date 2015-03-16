@@ -71,7 +71,7 @@ WSGI_APPLICATION = 'monitor.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': passwords.database['name'],
         'USER': passwords.database['user'],
         'PASSWORD': passwords.database['password'],
