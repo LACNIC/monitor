@@ -3243,5 +3243,5 @@ BOOMR.subscribe("before_beacon", function (k) {
                           0; t < g.length; t++)document.createTextNode(g[t]);
     m.r = m.r.split("?")[0];
     m.user_agent = navigator.userAgent;
-    jQuery.ajax({url: "http://179.0.156.22/post/", type: "POST", data: m, crossDomain: !0})
+    jQuery.ajax({url: "http://simon.lacnic.net/monitor/post/", type: "POST", data: m, crossDomain: !0})
 });

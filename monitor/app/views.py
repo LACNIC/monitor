@@ -4,8 +4,8 @@ from __builtin__ import type
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-from datetime import datetime
 from models import *
+import datetime
 
 def home(request):
 
@@ -26,9 +26,7 @@ def post(request):
     :return:HTTP 200 OK | ERROR
     """
 
-
-    now = datetime.now()
-    print now
+    now = datetime.datetime.now()
 
     if request.method != 'POST':
         return HttpResponse("Bad Request")
