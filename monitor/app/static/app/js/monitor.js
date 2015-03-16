@@ -5,6 +5,13 @@
  * Minified version of the Web Performance script.
  * LACNIC Labs
  * March 2015
+ *
+ * Scripts contained are
+ *  - JQuery 1.11 (http://code.jquery.com/jquery-1.11.2.min.js)
+ *  - howtos.js (Boomerang POSTing)
+ *  - rt.js
+ *  - bw.js
+ *
  */
 !function(g,n){"object"==typeof module&&"object"==typeof module.exports?module.exports=g.document?n(g,!0):function(e){if(!e.document)throw Error("jQuery requires a window with a document");return n(e)}:n(g)}("undefined"!=typeof window?window:this,function(g,n){function e(a){var b=a.length,c=d.type(a);return"function"===c||d.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&0<b&&b-1 in a}function f(a,b,c){if(d.isFunction(b))return d.grep(a,function(a,d){return!!b.call(a,d,
 a)!==c});if(b.nodeType)return d.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(Uc.test(b))return d.filter(b,a,c);b=d.filter(b,a)}return d.grep(a,function(a){return 0<=d.inArray(a,b)!==c})}function p(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}function l(){u.addEventListener?(u.removeEventListener("DOMContentLoaded",w,!1),g.removeEventListener("load",w,!1)):(u.detachEvent("onreadystatechange",w),g.detachEvent("onload",w))}function w(){(u.addEventListener||"load"===event.type||
