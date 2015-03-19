@@ -61,7 +61,7 @@ class Medicion(models.Model):
         return "%s %s %s" % (self.print_lat(), self.print_bw(), self.print_date())
 
     def print_lat(self):
-        return "%s ms" % str(int(self.lat))
+        return "%s ms" % str(float(self.lat))
 
     def print_date(self):
         return self.date.strftime("%d, %b")
@@ -76,15 +76,15 @@ class Medicion(models.Model):
         unit = B
 
         if self.bw < k:
-            value = str(int(self.bw))
+            value = str(float(self.bw))
             unit = B
 
         elif self.bw < m:
-            value = str(int(self.bw / k))
+            value = str(float(self.bw / k))
             unit = K
 
         else:
-            value = str(int(self.bw / m))
+            value = str(float(self.bw / m))
             unit = M
 
         return "%s %s" % (value, unit)
