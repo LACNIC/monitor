@@ -31,6 +31,8 @@ def post(request):
     if request.method != 'POST':
         return HttpResponse("Bad Request")
 
+    remote_addr = request.META['REMOTE_ADDR']
+
     http_post = request.POST
     lat = parseFloat(http_post.get('lat'))
     lat_err = parseFloat(http_post.get('lat_err'))
@@ -74,6 +76,7 @@ def post(request):
         med = Medicion(url=url,
                        user_agent=user_agent,
                        date=now,
+                       ip_origin=remote_addr,
 
                        lat=lat,
                        lat_err=lat_err,
