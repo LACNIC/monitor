@@ -34,15 +34,21 @@ def post(request):
     remote_addr = request.META['REMOTE_ADDR']
 
     http_post = request.POST
+
+    print http_post
+
     lat = parseFloat(http_post.get('lat'))
     lat_err = parseFloat(http_post.get('lat_err'))
     bw = parseFloat(http_post.get('bw'))
     bw_err = parseFloat(http_post.get('bw_err'))
 
     url = http_post.get('u')
+
     user_agent = http_post.get('user_agent')
 
     try:
+        t_page = parseFloat(http_post.get('t_page'))
+        t_done = parseFloat(http_post.get('t_done'))
         nt_red_cnt = parseFloat(http_post.get('nt_red_cnt'))
         nt_nav_type = parseFloat(http_post.get('nt_nav_type'))
         nt_nav_st = parseFloat(http_post.get('nt_nav_st'))
@@ -77,6 +83,9 @@ def post(request):
                        user_agent=user_agent,
                        date=now,
                        ip_origin=remote_addr,
+
+                       t_page=t_page,
+                       t_done=t_done,
 
                        lat=lat,
                        lat_err=lat_err,
@@ -162,7 +171,3 @@ def post(request):
 #                                                'pages': Page.objects.all()
 #                                             }
 #     )
-
-
-# def home(request):
-#     return render(request, 'app/home.html')
