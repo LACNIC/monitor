@@ -12,7 +12,7 @@
         var js = d.createElement(s),
                 sc = d.getElementsByTagName(s)[0];
 
-        js.src = "http://simon.lacnic.net/static/app/js/monitor.js";
+        js.src = "http://127.0.0.1:8000/static/app/js/monitor.js";
         js.type = "text/javascript";
         sc.parentNode.insertBefore(js, sc);
 
@@ -30,12 +30,10 @@
             BOOMR.init({
                 BW: {
                     base_url: '/static/app/images/',
-                    cookie: 'BW',
-                    cookie_exp: 604800
+                    cookie: 'BW'
                 },
                 RT: {
-                    cookie: 'RT',
-                    cookie_exp: 604800
+                    cookie: 'RT'
                 }
             });
 
