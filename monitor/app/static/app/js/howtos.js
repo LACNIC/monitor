@@ -52,7 +52,7 @@ BOOMR.subscribe('before_beacon', function(o) {
 
     jQuery.ajax(
         {
-            url: "http://simon.lacnic.net/monitor/post",
+            url: "http://simon.lacnic.net/monitor/post/",
             type: "POST",
             data: json,
             crossDomain: true
