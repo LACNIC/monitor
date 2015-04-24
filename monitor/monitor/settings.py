@@ -100,6 +100,10 @@ USE_TZ = False
 STATIC_URL = "/static/"
 STATIC_ROOT = "%s/app/static/" % os.getcwd()
 
+# Path to the geolocation files
+GEOIP_PATH = '%s/geolocation' % (STATIC_ROOT)
+GEOIP_DATABASE = '%s/%s' % (GEOIP_PATH, "GeoLite2-Country.mmdb")
+
 # Allow all sites to do CORS requests
 CORS_ORIGIN_ALLOW_ALL = True
 
