@@ -7,6 +7,7 @@ from django.db.models.fields.related import ForeignKey
 
 import user_agents
 
+
 class Page(models.Model):
     url = TextField(default='')
 
@@ -18,9 +19,35 @@ class Page(models.Model):
 
 class MedicionManager(models.Manager):
     def clean(self):
+        from numpy import nanmean as mean
+        from numpy import nanstd as std
+
         mbps = 1000000
-        all = Medicion.objects.all()
-        return [a for a in all if a.lat > 0.0 and a.lat < 1000 and a.bw > 0.0 and a.bw < 100 * mbps]
+        error_margin = 0.95
+        all = Medicion.objects.all().filter(lat__gt=0.0, lat__lte=1000, bw__gt=0.0, bw__lte=20 * mbps)
+
+        lat_mean = mean(all.values_list('lat', flat=True))
+        lat_std = std(all.values_list('lat', flat=True))
+        bw_mean = mean(all.values_list('bw', flat=True))
+        bw_std = std(all.values_list('bw', flat=True))
+
+        lat_upper_margin = lat_mean + lat_std
+        lat_lower_margin = lat_mean - lat_std
+        bw_upper_margin = bw_mean + bw_std
+        bw_lower_margin = bw_mean - bw_std
+
+        return [a for a in all
+                if a.lat_err < error_margin * a.lat and a.bw_err < error_margin * a.bw
+                and a.lat < (lat_upper_margin) and a.lat > (lat_lower_margin)
+                and a.bw < (bw_upper_margin) and a.bw > (bw_lower_margin)]
+
+    def ipv6(self):
+        all = Medicion.objects.clean()
+        return [a for a in all if ':' in str(a.ip_origin)]
+
+    def ipv4(self):
+        all = Medicion.objects.clean()
+        return [a for a in all if ':' not in str(a.ip_origin)]
 
     def no_spiders(self):
         all = Medicion.objects.clean()
@@ -37,6 +64,10 @@ class MedicionManager(models.Manager):
     def bot(self):
         all = Medicion.objects.clean()
         return [a for a in all if a.is_bot()]
+
+    def dns(self):
+        all = Medicion.objects.clean()
+        return [a for a in all if a.nt_dns_end - a.nt_dns_st > 0 and a.nt_dns_end - a.nt_dns_st < 400]
 
 
 class Medicion(models.Model):
@@ -129,6 +160,13 @@ class Medicion(models.Model):
 
     def is_bot(self):
         return user_agents.parse(self.user_agent).is_bot
+
+    def browser_family(self):
+        return user_agents.parse(self.user_agent).browser.family
+
+    def os_family(self):
+        return user_agents.parse(self.user_agent).os.family
+
 
 class Scan(models.Model):
     date = DateTimeField(default=datetime.datetime.now())

@@ -6,14 +6,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="boomerang" />
     <orderEntry type="module" module-name="rdap-parser" />
-    <orderEntry type="module" module-name="simple-todos" />
     <orderEntry type="module" module-name="charts" />
-    <orderEntry type="module" module-name="simon-web" />
     <orderEntry type="module" module-name="simon-javascript" />
     <orderEntry type="module" module-name="cosas" />
     <orderEntry type="module" module-name="simon-wimi" />
     <orderEntry type="module" module-name="simon-web" />
-    <orderEntry type="module" module-name="simon-web" />
+    <orderEntry type="module" module-name="gviz_api_py-1.8.2" />
   </component>
 </module>
 
