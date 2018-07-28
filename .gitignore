@@ -1,4 +1,5 @@
 .idea/
+.vagrant/
 passwords.py
 db.sqlite3
 *.pyc
