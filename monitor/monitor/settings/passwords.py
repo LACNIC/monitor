@@ -1,0 +1,10 @@
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'aguformoso@gmail.com'
+SERVER_EMAIL = 'aguformoso@gmail.com'
+DEFAULT_FROM_EMAIL = "agustin@lacnic.net"
+DBNAME = 'monitor'
+DBUSER = 'postgres'
+DBHOST = '127.0.0.1'
+DBPORT = 5432

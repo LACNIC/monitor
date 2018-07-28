@@ -26,7 +26,6 @@ install:
   - pip install coveralls
 
 before_script:
-  - touch monitor/monitor/passwords.py
   - psql -c 'create database monitor;' -U postgres
   - python monitor/manage.py makemigrations 
   - python monitor/manage.py migrate 

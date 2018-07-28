@@ -9,9 +9,31 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-from django.utils.module_loading import import_by_path
-from monitor import passwords
 import os
+from django.utils.module_loading import import_by_path
+import passwords
+
+try:
+    EMAIL_USE_TLS = os.environ.get("MONITOR_EMAIL_USE_TLS", passwords.EMAIL_USE_TLS)
+    EMAIL_HOST = os.environ.get("MONITOR_EMAIL_HOST", passwords.EMAIL_HOST)
+    EMAIL_PORT = os.environ.get("MONITOR_EMAIL_PORT", passwords.EMAIL_PORT)
+    EMAIL_HOST_USER = os.environ.get("MONITOR_EMAIL_HOST_USER", passwords.EMAIL_HOST_USER)
+    SERVER_EMAIL = os.environ.get("MONITOR_SERVER_EMAIL", passwords.SERVER_EMAIL)
+    DEFAULT_FROM_EMAIL = os.environ.get("MONITOR_DEFAULT_FROM_EMAIL", passwords.DEFAULT_FROM_EMAIL)
+
+    DBNAME = os.environ.get("MONITOR_DBNAME", passwords.DBNAME)
+    DBUSER = os.environ.get("MONITOR_DBUSER", passwords.DBUSER)
+    DBPASSWORD = os.environ.get("MONITOR_DBPASSWORD", passwords.DBPASSWORD)
+    DBHOST = os.environ.get("MONITOR_DBHOST", passwords.DBHOST)
+    DBPORT = os.environ.get("MONITOR_DBPORT", passwords.DBPORT)
+    EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", passwords.EMAIL_HOST_PASSWORD)
+except ImportError:
+    DBNAME = ""
+    DBUSER = ""
+    DBPASSWORD = ""
+    DBHOST = ""
+    DBPORT = ""
+    EMAIL_HOST_PASSWORD = ""
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -72,11 +94,11 @@ WSGI_APPLICATION = 'monitor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': passwords.database['name'],
-        'USER': passwords.database['user'],
-        'PASSWORD': passwords.database['password'],
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'NAME': DBNAME,
+        'USER': DBUSER,
+        'PASSWORD': DBPASSWORD,
+        'HOST': DBHOST,
+        'PORT': DBPORT,
     }
 }
 
