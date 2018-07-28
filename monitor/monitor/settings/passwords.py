@@ -6,5 +6,7 @@ SERVER_EMAIL = 'aguformoso@gmail.com'
 DEFAULT_FROM_EMAIL = "agustin@lacnic.net"
 DBNAME = 'monitor'
 DBUSER = 'postgres'
+DBPASSWORD = ''
 DBHOST = '127.0.0.1'
 DBPORT = 5432
+EMAIL_HOST_PASSWORD = ''
